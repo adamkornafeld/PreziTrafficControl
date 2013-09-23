@@ -8,6 +8,8 @@
 
 #import "AKTimer.h"
 
+static const int kDefaultTime = 120;
+
 @interface AKTimer ()
 
 @end
@@ -30,10 +32,10 @@
   if (self)
   {
     _timerSuspended = YES;
-    _time = _originalTime = 120;
+    _time = _originalTime = kDefaultTime;
     _countDirection = CountDown;
 
-    _dispatchQueue = dispatch_queue_create("com.AirTrafficControl.AKTimer", NULL);
+    _dispatchQueue = dispatch_queue_create("com.PreziTrafficControl.AKTimer", NULL);
     _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, self.dispatchQueue);
     _timerSuspended = YES;
 
