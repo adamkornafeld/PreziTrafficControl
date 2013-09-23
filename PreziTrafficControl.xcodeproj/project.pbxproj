@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C651A40517EFFAE600B6E0C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651A40417EFFAE600B6E0C6 /* Foundation.framework */; };
+		C651A40717EFFAE600B6E0C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651A40617EFFAE600B6E0C6 /* CoreGraphics.framework */; };
+		C651A40917EFFAE600B6E0C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651A40817EFFAE600B6E0C6 /* UIKit.framework */; };
+		C651A40F17EFFAE600B6E0C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C651A40D17EFFAE600B6E0C6 /* InfoPlist.strings */; };
+		C651A41117EFFAE600B6E0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C651A41017EFFAE600B6E0C6 /* main.m */; };
+		C651A41517EFFAE600B6E0C6 /* AKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C651A41417EFFAE600B6E0C6 /* AKAppDelegate.m */; };
+		C651A41817EFFAE600B6E0C6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C651A41617EFFAE600B6E0C6 /* Main_iPhone.storyboard */; };
+		C651A41B17EFFAE600B6E0C6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C651A41917EFFAE600B6E0C6 /* Main_iPad.storyboard */; };
+		C651A41E17EFFAE600B6E0C6 /* AKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C651A41D17EFFAE600B6E0C6 /* AKViewController.m */; };
+		C651A42017EFFAE600B6E0C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C651A41F17EFFAE600B6E0C6 /* Images.xcassets */; };
+		C651A42717EFFAE600B6E0C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651A42617EFFAE600B6E0C6 /* XCTest.framework */; };
+		C651A42817EFFAE600B6E0C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651A40417EFFAE600B6E0C6 /* Foundation.framework */; };
+		C651A42917EFFAE600B6E0C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C651A40817EFFAE600B6E0C6 /* UIKit.framework */; };
+		C651A43117EFFAE600B6E0C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C651A42F17EFFAE600B6E0C6 /* InfoPlist.strings */; };
+		C651A43317EFFAE600B6E0C6 /* PreziTrafficControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C651A43217EFFAE600B6E0C6 /* PreziTrafficControlTests.m */; };
+		C651A43E17EFFD1900B6E0C6 /* AKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C651A43D17EFFD1900B6E0C6 /* AKTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C651A42A17EFFAE600B6E0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C651A3F917EFFAE600B6E0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C651A40017EFFAE600B6E0C6;
+			remoteInfo = PreziTrafficControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C651A40117EFFAE600B6E0C6 /* PreziTrafficControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreziTrafficControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C651A40417EFFAE600B6E0C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C651A40617EFFAE600B6E0C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C651A40817EFFAE600B6E0C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C651A40C17EFFAE600B6E0C6 /* PreziTrafficControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreziTrafficControl-Info.plist"; sourceTree = "<group>"; };
+		C651A40E17EFFAE600B6E0C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C651A41017EFFAE600B6E0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C651A41217EFFAE600B6E0C6 /* PreziTrafficControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreziTrafficControl-Prefix.pch"; sourceTree = "<group>"; };
+		C651A41317EFFAE600B6E0C6 /* AKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKAppDelegate.h; sourceTree = "<group>"; };
+		C651A41417EFFAE600B6E0C6 /* AKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKAppDelegate.m; sourceTree = "<group>"; };
+		C651A41717EFFAE600B6E0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C651A41A17EFFAE600B6E0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C651A41C17EFFAE600B6E0C6 /* AKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKViewController.h; sourceTree = "<group>"; };
+		C651A41D17EFFAE600B6E0C6 /* AKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKViewController.m; sourceTree = "<group>"; };
+		C651A41F17EFFAE600B6E0C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C651A42517EFFAE600B6E0C6 /* PreziTrafficControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreziTrafficControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C651A42617EFFAE600B6E0C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C651A42E17EFFAE600B6E0C6 /* PreziTrafficControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreziTrafficControlTests-Info.plist"; sourceTree = "<group>"; };
+		C651A43017EFFAE600B6E0C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C651A43217EFFAE600B6E0C6 /* PreziTrafficControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreziTrafficControlTests.m; sourceTree = "<group>"; };
+		C651A43C17EFFD1900B6E0C6 /* AKTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTimer.h; sourceTree = "<group>"; };
+		C651A43D17EFFD1900B6E0C6 /* AKTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C651A3FE17EFFAE600B6E0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C651A40717EFFAE600B6E0C6 /* CoreGraphics.framework in Frameworks */,
+				C651A40917EFFAE600B6E0C6 /* UIKit.framework in Frameworks */,
+				C651A40517EFFAE600B6E0C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C651A42217EFFAE600B6E0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C651A42717EFFAE600B6E0C6 /* XCTest.framework in Frameworks */,
+				C651A42917EFFAE600B6E0C6 /* UIKit.framework in Frameworks */,
+				C651A42817EFFAE600B6E0C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C651A3F817EFFAE600B6E0C6 = {
+			isa = PBXGroup;
+			children = (
+				C651A40A17EFFAE600B6E0C6 /* PreziTrafficControl */,
+				C651A42C17EFFAE600B6E0C6 /* PreziTrafficControlTests */,
+				C651A40317EFFAE600B6E0C6 /* Frameworks */,
+				C651A40217EFFAE600B6E0C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C651A40217EFFAE600B6E0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C651A40117EFFAE600B6E0C6 /* PreziTrafficControl.app */,
+				C651A42517EFFAE600B6E0C6 /* PreziTrafficControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C651A40317EFFAE600B6E0C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C651A40417EFFAE600B6E0C6 /* Foundation.framework */,
+				C651A40617EFFAE600B6E0C6 /* CoreGraphics.framework */,
+				C651A40817EFFAE600B6E0C6 /* UIKit.framework */,
+				C651A42617EFFAE600B6E0C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C651A40A17EFFAE600B6E0C6 /* PreziTrafficControl */ = {
+			isa = PBXGroup;
+			children = (
+				C651A43C17EFFD1900B6E0C6 /* AKTimer.h */,
+				C651A43D17EFFD1900B6E0C6 /* AKTimer.m */,
+				C651A41317EFFAE600B6E0C6 /* AKAppDelegate.h */,
+				C651A41417EFFAE600B6E0C6 /* AKAppDelegate.m */,
+				C651A41617EFFAE600B6E0C6 /* Main_iPhone.storyboard */,
+				C651A41917EFFAE600B6E0C6 /* Main_iPad.storyboard */,
+				C651A41C17EFFAE600B6E0C6 /* AKViewController.h */,
+				C651A41D17EFFAE600B6E0C6 /* AKViewController.m */,
+				C651A41F17EFFAE600B6E0C6 /* Images.xcassets */,
+				C651A40B17EFFAE600B6E0C6 /* Supporting Files */,
+			);
+			path = PreziTrafficControl;
+			sourceTree = "<group>";
+		};
+		C651A40B17EFFAE600B6E0C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C651A40C17EFFAE600B6E0C6 /* PreziTrafficControl-Info.plist */,
+				C651A40D17EFFAE600B6E0C6 /* InfoPlist.strings */,
+				C651A41017EFFAE600B6E0C6 /* main.m */,
+				C651A41217EFFAE600B6E0C6 /* PreziTrafficControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C651A42C17EFFAE600B6E0C6 /* PreziTrafficControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				C651A43217EFFAE600B6E0C6 /* PreziTrafficControlTests.m */,
+				C651A42D17EFFAE600B6E0C6 /* Supporting Files */,
+			);
+			path = PreziTrafficControlTests;
+			sourceTree = "<group>";
+		};
+		C651A42D17EFFAE600B6E0C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C651A42E17EFFAE600B6E0C6 /* PreziTrafficControlTests-Info.plist */,
+				C651A42F17EFFAE600B6E0C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C651A40017EFFAE600B6E0C6 /* PreziTrafficControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C651A43617EFFAE600B6E0C6 /* Build configuration list for PBXNativeTarget "PreziTrafficControl" */;
+			buildPhases = (
+				C651A3FD17EFFAE600B6E0C6 /* Sources */,
+				C651A3FE17EFFAE600B6E0C6 /* Frameworks */,
+				C651A3FF17EFFAE600B6E0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreziTrafficControl;
+			productName = PreziTrafficControl;
+			productReference = C651A40117EFFAE600B6E0C6 /* PreziTrafficControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C651A42417EFFAE600B6E0C6 /* PreziTrafficControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C651A43917EFFAE600B6E0C6 /* Build configuration list for PBXNativeTarget "PreziTrafficControlTests" */;
+			buildPhases = (
+				C651A42117EFFAE600B6E0C6 /* Sources */,
+				C651A42217EFFAE600B6E0C6 /* Frameworks */,
+				C651A42317EFFAE600B6E0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C651A42B17EFFAE600B6E0C6 /* PBXTargetDependency */,
+			);
+			name = PreziTrafficControlTests;
+			productName = PreziTrafficControlTests;
+			productReference = C651A42517EFFAE600B6E0C6 /* PreziTrafficControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C651A3F917EFFAE600B6E0C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adam Kornafeld";
+				TargetAttributes = {
+					C651A42417EFFAE600B6E0C6 = {
+						TestTargetID = C651A40017EFFAE600B6E0C6;
+					};
+				};
+			};
+			buildConfigurationList = C651A3FC17EFFAE600B6E0C6 /* Build configuration list for PBXProject "PreziTrafficControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C651A3F817EFFAE600B6E0C6;
+			productRefGroup = C651A40217EFFAE600B6E0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C651A40017EFFAE600B6E0C6 /* PreziTrafficControl */,
+				C651A42417EFFAE600B6E0C6 /* PreziTrafficControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C651A3FF17EFFAE600B6E0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C651A41B17EFFAE600B6E0C6 /* Main_iPad.storyboard in Resources */,
+				C651A42017EFFAE600B6E0C6 /* Images.xcassets in Resources */,
+				C651A41817EFFAE600B6E0C6 /* Main_iPhone.storyboard in Resources */,
+				C651A40F17EFFAE600B6E0C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C651A42317EFFAE600B6E0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C651A43117EFFAE600B6E0C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C651A3FD17EFFAE600B6E0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C651A41517EFFAE600B6E0C6 /* AKAppDelegate.m in Sources */,
+				C651A43E17EFFD1900B6E0C6 /* AKTimer.m in Sources */,
+				C651A41E17EFFAE600B6E0C6 /* AKViewController.m in Sources */,
+				C651A41117EFFAE600B6E0C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C651A42117EFFAE600B6E0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C651A43317EFFAE600B6E0C6 /* PreziTrafficControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C651A42B17EFFAE600B6E0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C651A40017EFFAE600B6E0C6 /* PreziTrafficControl */;
+			targetProxy = C651A42A17EFFAE600B6E0C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C651A40D17EFFAE600B6E0C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C651A40E17EFFAE600B6E0C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C651A41617EFFAE600B6E0C6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C651A41717EFFAE600B6E0C6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C651A41917EFFAE600B6E0C6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C651A41A17EFFAE600B6E0C6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C651A42F17EFFAE600B6E0C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C651A43017EFFAE600B6E0C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C651A43417EFFAE600B6E0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C651A43517EFFAE600B6E0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C651A43717EFFAE600B6E0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreziTrafficControl/PreziTrafficControl-Prefix.pch";
+				INFOPLIST_FILE = "PreziTrafficControl/PreziTrafficControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C651A43817EFFAE600B6E0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreziTrafficControl/PreziTrafficControl-Prefix.pch";
+				INFOPLIST_FILE = "PreziTrafficControl/PreziTrafficControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C651A43A17EFFAE600B6E0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PreziTrafficControl.app/PreziTrafficControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreziTrafficControl/PreziTrafficControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PreziTrafficControlTests/PreziTrafficControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C651A43B17EFFAE600B6E0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PreziTrafficControl.app/PreziTrafficControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreziTrafficControl/PreziTrafficControl-Prefix.pch";
+				INFOPLIST_FILE = "PreziTrafficControlTests/PreziTrafficControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C651A3FC17EFFAE600B6E0C6 /* Build configuration list for PBXProject "PreziTrafficControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C651A43417EFFAE600B6E0C6 /* Debug */,
+				C651A43517EFFAE600B6E0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C651A43617EFFAE600B6E0C6 /* Build configuration list for PBXNativeTarget "PreziTrafficControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C651A43717EFFAE600B6E0C6 /* Debug */,
+				C651A43817EFFAE600B6E0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C651A43917EFFAE600B6E0C6 /* Build configuration list for PBXNativeTarget "PreziTrafficControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C651A43A17EFFAE600B6E0C6 /* Debug */,
+				C651A43B17EFFAE600B6E0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C651A3F917EFFAE600B6E0C6 /* Project object */;
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="AKViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fb6-0d-ksA"/>
+                        <viewControllerLayoutGuide type="bottom" id="xuU-cU-3Dn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5p-Y3-lia">
+                                <rect key="frame" x="0.0" y="20" width="321" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="b18-bG-asX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="90"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O32-DF-QkS">
+                                <rect key="frame" x="136" y="429" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="timerSwitchValueDidChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="3R1-zf-jsg"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFA-hj-K8c">
+                                <rect key="frame" x="240" y="430" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0qd-kd-4gQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eD-FL-r38">
+                                <rect key="frame" x="20" y="430" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Set">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="setButtonTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Nra-ZV-Qze"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Y2x-pg-A69">
+                                <rect key="frame" x="0.0" y="95" width="321" height="324"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c5p-Y3-lia" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="0Gh-R6-GOo"/>
+                            <constraint firstItem="iFA-hj-K8c" firstAttribute="leading" secondItem="O32-DF-QkS" secondAttribute="trailing" constant="55" id="3u7-CW-aAd"/>
+                            <constraint firstItem="Y2x-pg-A69" firstAttribute="centerX" secondItem="O32-DF-QkS" secondAttribute="centerX" id="Het-uR-Hae"/>
+                            <constraint firstItem="Y2x-pg-A69" firstAttribute="trailing" secondItem="c5p-Y3-lia" secondAttribute="trailing" id="JMe-Tb-Gnf"/>
+                            <constraint firstItem="Y2x-pg-A69" firstAttribute="top" secondItem="c5p-Y3-lia" secondAttribute="bottom" constant="5" id="NoO-zT-1Pn"/>
+                            <constraint firstAttribute="centerX" secondItem="O32-DF-QkS" secondAttribute="centerX" id="Prd-fG-YGH"/>
+                            <constraint firstItem="xuU-cU-3Dn" firstAttribute="top" secondItem="O32-DF-QkS" secondAttribute="bottom" constant="20" id="QfY-Ta-JoS"/>
+                            <constraint firstItem="O32-DF-QkS" firstAttribute="top" secondItem="Y2x-pg-A69" secondAttribute="bottom" constant="10" id="bYQ-Yh-eRo"/>
+                            <constraint firstItem="iFA-hj-K8c" firstAttribute="centerY" secondItem="O32-DF-QkS" secondAttribute="centerY" id="ez9-UU-5Wg"/>
+                            <constraint firstItem="O32-DF-QkS" firstAttribute="centerY" secondItem="9eD-FL-r38" secondAttribute="centerY" id="ofk-S3-Fie"/>
+                            <constraint firstItem="O32-DF-QkS" firstAttribute="leading" secondItem="9eD-FL-r38" secondAttribute="trailing" constant="86" id="weC-L9-RgC"/>
+                            <constraint firstItem="c5p-Y3-lia" firstAttribute="top" secondItem="Fb6-0d-ksA" secondAttribute="bottom" id="x9O-Gd-6K9"/>
+                            <constraint firstItem="Y2x-pg-A69" firstAttribute="leading" secondItem="c5p-Y3-lia" secondAttribute="leading" id="zc3-U1-icj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resetButton" destination="iFA-hj-K8c" id="vpS-7Z-odH"/>
+                        <outlet property="setButton" destination="9eD-FL-r38" id="dm4-Kd-Yqq"/>
+                        <outlet property="tableView" destination="Y2x-pg-A69" id="KGh-kX-4ao"/>
+                        <outlet property="timeLabel" destination="c5p-Y3-lia" id="LpS-Mh-wKO"/>
+                        <outlet property="timerSwitch" destination="O32-DF-QkS" id="lcq-62-u1z"/>
+                        <outlet property="timerSwitchBottomSpacer" destination="QfY-Ta-JoS" id="haQ-pC-6T7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="20"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
